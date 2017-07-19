@@ -1,0 +1,105 @@
+/*Document information: Joan Santiago*/
+
+body {
+    width: 90%;
+    margin: auto;
+    align-content: center;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 20px;
+    background-color: white;
+    padding-top: 10px;
+    
+}
+
+.nav {
+    color: gray;
+    font-size: 15px;
+    position: static; /* make nav bar stay at top */
+    background-color: #A6FFD6;
+    width: 100%;
+    text-align: left;
+
+}
+
+ul {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 30px;
+
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    padding-left: 0px;
+}
+
+
+h1{
+    font-family: : 'Libre Franklin', sans-serif;
+    text-align: center;
+    color: #b38f00;
+    padding-top: 30px;
+}
+
+h2{
+    font-family: : 'Libre Franklin', sans-serif;
+    text-align: center;
+    padding: 15px 10px;
+    
+}
+a {
+    color: #28a428;
+}
+
+.container{
+    width: 100%;
+    padding: 40px 10px 10px 10px;
+    }
+
+.zoo {
+    padding: 20px;
+}
+
+.zoo p{
+    margin: 20px;
+}
+
+.zoo img{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    
+}
+.pictures{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 20px;
+    
+}
+.coney {
+    padding: 20px;
+    display: flex;
+}
+
+.coney img {
+    margin: 20px;
+}
+
+.mini {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.central {
+    padding: 20px;
+    display: flex;
+    
+}
+.central img {
+    margin: 20px;
+}

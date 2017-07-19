@@ -1,0 +1,188 @@
+/*Document information: Author: Erma Pecoraro*/
+
+body {
+  width: 1500px;
+  height: 1600px;
+  background-color: white;
+
+}
+
+/*all fonts must be karla, sans-serif*/
+
+#nav {
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: #A6FFD6;
+  height:40px;  
+}
+#nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+}
+#nav li {
+  margin: 0px;
+  
+}
+#nav li a {
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #212652;
+  background-color: #A6FFD6;
+  float: left;
+  font-family: hammersmith1, sans-serif;
+}
+/*navigation will hover and link to sections*/
+#nav li a:hover {
+  color: #ECF5FC;
+  background-color: #329BE8;
+}
+#nav {
+  width: 1400px;
+}
+
+.museum {
+  width: 1400px;
+  height: 600px;
+  margin-top: 100px;
+  border: 2px dotted blue;
+  border-radius: 25px;
+  background-color: #D1E4D2;
+  
+  
+}
+
+.memorial {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  font-family: karla, sans-serif;
+  font-size: 12px;
+  margin-left: 10px;
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  
+  
+  
+  
+  
+}
+
+
+.met {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  vertical-align: top;
+  font-family: karla, sans-serif;
+  font-size: 12px;
+  margin-left: 100px;
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  
+  
+  
+  }
+
+.history {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  vertical-align: top;
+  font-family: karla, sans-serif;
+  font-size: 12px;
+  margin-left: 100px;
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  
+  
+}
+
+.landmark {
+  width: 1400px;
+  height: 600px;
+  font-family: karla, sans-serif;
+  font-size: 12px;
+  border: 2px dotted blue;
+  border-radius: 25px;
+  background-color: #D1E4D2;
+  margin-top: 30px;
+}
+
+.statue {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  vertical-align: top;
+  font-family: karla, sans-serif;
+  font-size: 12px;
+  margin-left: 10px;
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+  
+}
+.ellis {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  vertical-align: top;
+  margin-left: 100px;
+  font-family: karla, sans-serif;
+  font-size: 12px;
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+ 
+  
+}
+
+.empire {
+  display: inline-block;
+  width: 350px;
+  height: 300px;
+  vertical-align: top;
+  font-family: karla, sans-serif;
+  font-size: 12px;
+  margin-left: 100px;
+  padding: 20px 20px 20px 20px;
+  text-align: left;
+}
+h4 {
+  font-family: karla, sans-serif;
+  font-size: 24px;
+  
+}
+
+h5 {
+  font-family: karla, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  
+}
+/*footer will be placeholder to submit email*/
+.footer {
+  width: 500px;
+  height: 100px;
+  border: 2px solid blue;
+  border-radius: 125px;
+  background-color: #D1E4D2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-left: 450px;
+  
+}
+
+form {
+  width: 300px;
+  height: 30px;
+  margin-left: 95px;
+  border: 2px solid black;
+  color: #53B3CB;
+}
+  
+
+/*wake the machine. code for involution*/

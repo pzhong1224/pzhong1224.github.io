@@ -1,0 +1,87 @@
+.container {
+    height: 100vh;
+    padding-top: 150px;
+}
+
+
+.nav {
+    border: 1px solid lightgray;
+    color: gray;
+    font-size: 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: left;
+    background-color: white;
+}
+
+h3 {
+    padding-left: 30px;
+    margin-top: 0px;
+}
+
+.nav ul {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 30px;
+}
+
+.nav li {
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+    padding-left: 0px;
+}
+
+.nav a {
+    color: gray;
+}
+
+.nav a:link {
+    text-decoration: none;
+}
+
+.breakfast {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    height: 400px;
+    min-width: 150px;
+    margin-bottom:15px;
+}
+
+
+.mini {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    margin: 20px;
+    min-width: 60px;
+    width: 32%;
+    
+}
+
+.clinton {
+    background: url('sq-bakery.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.friedman {
+    background: url('sq-fried_chicken1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.feast {
+    background: url('sqparfait.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.lunch {
+    margin-top: 300px; 
+    border: 1px solid lightgray;
+}
