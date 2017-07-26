@@ -85,7 +85,7 @@ h2{
 }
 
 .pictures img{
-    width: 33%;
+    width: 30%;
     height: 100%;
 }
 
@@ -96,7 +96,9 @@ h2{
 
 .coney img {
     margin: 20px;
+    height: 50%;
     display: inline-block;
+    padding-top: 20px;
     /*border: 2px brown dotted;*/
 }
 
@@ -105,7 +107,7 @@ h2{
 }
 
 .mini {
-    display: inline-block
+    display: inline-block;
     padding: 20px;}
 
 .central {
