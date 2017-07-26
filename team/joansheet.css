@@ -8,17 +8,21 @@ body {
     font-size: 20px;
     background-color: white;
     padding-top: 10px;
-    
+}
+.container{
+    /*border: 1px red dotted; stay with-in*/
+    width: 100%;
+   /* padding: 40px 10px 10px 10px;*/
 }
 
 .nav {
     color: gray;
     font-size: 15px;
     position: static; /* make nav bar stay at top */
+    font-family: 'Hammersmith One', sans-serif;
     background-color: #A6FFD6;
     width: 100%;
     text-align: left;
-
 }
 
 ul {
@@ -26,7 +30,6 @@ ul {
     padding: 0px;
     margin: 0px;
     margin-left: 30px;
-
 }
 
 li {
@@ -36,28 +39,30 @@ li {
     padding-left: 0px;
 }
 
+a {
+    color: #212652;
+}
+a:link{
+    text-decoration: none;
+}
+
+/*a:hover{change font color on hover
+    background-color: #329BE8;
+    text-decoration: none;
+    color: #ECF5FC;
+    font-size: 20px;*/
 
 h1{
-    font-family: :'Libre Franklin',sans-serif;
+    font-family:'Libre Franklin',sans-serif;
     text-align: center;
     color: #b38f00;
     padding-top: 30px;
 }
 
 h2{
-    font-family: : 'Libre Franklin', sans-serif;
+    font-family:'Libre Franklin', sans-serif;
     text-align: center;
     padding: 15px 10px;
-    
-}
-a {
-    color: #28a428;
-}
-
-.container{
-    /*border: 1px red dotted; stay with-in*/
-    width: 100%;
-    padding: 40px 10px 10px 10px;
 }
 
 .zoo {
@@ -94,6 +99,7 @@ a {
     display: inline-block;
     /*border: 2px brown dotted;*/
 }
+
 #luna{
     margin: 30px;
 }
@@ -113,8 +119,8 @@ a {
     display: inline-block;
     margin: 15px;
 }
+
 #cp{
     margin: 30px;
     padding-top: 20px;
-    
 }

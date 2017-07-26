@@ -30,16 +30,104 @@ body {
     text-decoration: none;
 }
 
-.content {
-    font-family: 'Merriweather', Georgia, serif;
-    height: 100vh;
-    margin: -22px;
-    background: url('san-francisco-cover.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+/* affects my experience body*/
 
 h1 {
-    padding: 70px 100px 50px 100px;
+    text-align: center;
+    font-family: 'Merriweather', Georgia, serif;
+    padding: 50px 0px 0px 0px;
+}
+
+.write {
+    font-size: 25px;
+    font-family: 'Merriweather', Georgia, serif;
+    height: 100%;
+    text-align: left;
+    padding: 30px 200px 30px 200px;
+    margin: 0px 200px 0px 200px;
+
+}
+
+.experience {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    margin-bottom:15px;
+
+}
+
+/* affects my mini */
+
+.mini {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    margin: 100px 200px 0px 200px;
+    height: 100vh;
+
+}
+
+
+.hot {
+    background: url('cropped-hotair.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.redwood {
+    background: url('cropped-redwood.jpg');
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.golden {
+    background: url('cropped-golden-gate.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.hot a {
     color: white;
+    font-size: 70px;
+    font-family: 'Merriweather', Georgia, serif;
+    height: 100%;
+    text-align: center;
+    padding-top: 300px;
+    
+}
+
+.hot a:link {
+    text-decoration: none;
+}
+
+.redwood a {
+    color: white;
+    font-size: 70px;
+    font-family: 'Merriweather', Georgia, serif;
+    height: 100%;
+    text-align: center;
+    padding-top: 300px;
+    
+}
+
+.redwood a:link {
+    text-decoration: none;
+}
+
+.golden a {
+    color: white;
+    font-size: 70px;
+    font-family: 'Merriweather', Georgia, serif;
+    height: 100%;
+    text-align: center;
+    padding-top: 300px;
+    
+}
+
+.golden a:link {
+    text-decoration: none;
 }
