@@ -1,0 +1,16 @@
+.header {
+    background: #ccc; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    background-color: gray;
+    display: inline-block
+    
+}
+
+.nav a {
+    text-align: right;
+    
+}

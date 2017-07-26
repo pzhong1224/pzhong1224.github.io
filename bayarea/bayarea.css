@@ -5,10 +5,26 @@ body {
 
 /* nav details start here */
 
+.box {
+    background-color: #FAD7A0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    padding: 5px 30px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Bellefair', Helvetica, sans-serif;
+    
+}
+
 .nav {
     font-family: 'Roboto', Helvetica, sans-serif;
     font-size: 20px; 
-    background-color: #bfaec9;  /* hex color here */
+    background-color: #FAD7A0;  /* hex color here */
     margin: 0px;
     padding: 18px 0px 18px 0px;
 }
@@ -20,7 +36,7 @@ body {
 
 .nav li {
     display: inline-block;
-    padding: 15px 20px 15px 0px;
+    padding: 15px 30px 15px 0px;
     text-align: center; 
 }
 
@@ -50,4 +66,5 @@ body {
 h1 {
     padding: 70px 100px 50px 100px;
     color: white;
+    font-family: 'Merriweather', Georgia, serif;
 }

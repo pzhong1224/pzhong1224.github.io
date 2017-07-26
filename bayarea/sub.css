@@ -5,10 +5,25 @@ body {
     padding: 0px;
 }
 
+.box {
+    background-color: #FAD7A0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+h2 {
+    padding: 5px 30px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Bellefair', Helvetica, sans-serif;
+}
+
 .nav {
     font-family: 'Roboto', Helvetica, sans-serif;
     font-size: 20px;
-    background-color: #bfaec9;
+    background-color: #FAD7A0;
     margin: 0px;
     padding: 18px 0px 18px 0px;
 }
@@ -20,7 +35,7 @@ body {
 
 .nav li {
     display: inline-block;
-    padding: 15px 20px 15px 0px;
+    padding: 15px 30px 15px 0px;
     text-align: center; 
 }
 
