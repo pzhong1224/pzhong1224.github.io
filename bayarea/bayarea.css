@@ -55,7 +55,7 @@ h2 {
 /*google font used here*/
 
 .content {
-    font-family: 'Merriweather', Georgia, serif;
+    font-family: 'Merriweather', Garamond, serif;
     height: 100vh;
     margin: -22px;    /* this decreased the gap btw divs*/
     background: url('san-francisco-cover.jpg') no-repeat;
@@ -66,5 +66,5 @@ h2 {
 h1 {
     padding: 70px 100px 50px 100px;
     color: white;
-    font-family: 'Merriweather', Georgia, serif;
+    font-family: 'Merriweather', Garamond, serif;
 }
