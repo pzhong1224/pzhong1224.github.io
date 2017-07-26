@@ -1,33 +1,26 @@
 .container {
     height: 100vh;
+    padding-top: 150px;
     font-family: 'Hammersmith One', sans-serif;
     
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Hammersmith One', sans-serif;
-    color: gray;
 }
 
 /* affects my nav  */
 
 .nav {
     color: gray;
-    font-size: 15px;
-    background-color: #A6FFD6;
-    width: 100%;
+    font-size: 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
     text-align: left;
+    background-color: white;
     font-family: 'Hammersmith One', sans-serif;
-}
-
-.bar {
-  background-color: #A6FFD6;
 }
 
 .body {
     font-family: 'Hammersmith One', sans-serif;
-    margin: 0px;
 }
 
 h3 {
@@ -38,23 +31,23 @@ h3 {
 /* affects all my navigation links  */
 
 .nav ul {
-    text-align: left;
+    text-align: center;
     padding: 0px;
     margin: 0px;
     margin-left: 30px;
-
 }
 
 .nav li {
     display: inline-block;
     text-align: center;
-    padding: 15px;
-    padding-left: 0px;
-
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .nav a {
-    color: #212652;
+    color: gray;
 }
 
 .nav a:link {

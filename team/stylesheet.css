@@ -1,75 +1,71 @@
-/*Document information: Author: Erma Pecoraro*/
+/*Document information - Author: Erma Pecoraro*/
 
 body {
-  width: 1500px;
-  height: 1600px;
-  background-color: white;
-
-}
-
-/*all fonts must be karla, sans-serif*/
-
-#nav {
-  list-style: none;
-  font-weight: bold;
-  margin-bottom: 10px;
   width: 100%;
-  text-align: center;
-  background-color: #A6FFD6;
-  height:40px;  
+  margin: 0;
+  background-color: white;
 }
-#nav ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0;
-}
-#nav li {
-  margin: 0px;
+
+/*all fonts must be Hammersmith One, sans-serif*/
+
+h1 {
+  font-family: Hammersmith One, sans-serif;
   
 }
-#nav li a {
-  padding: 10px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #212652;
-  background-color: #A6FFD6;
-  float: left;
-  font-family: hammersmith1, sans-serif;
-}
-/*navigation will hover and link to sections*/
-#nav li a:hover {
-  color: #ECF5FC;
-  background-color: #329BE8;
-}
-#nav {
-  width: 1400px;
+
+.places {
+  width: 100%;
+  margin-left: 20px;
+  text-align: center;
 }
 
+/*Navigation Bar*/
+
+.nav {
+    color: gray;
+    font-size: 15px;
+    font-family: Hammersmith One, sans-serif;
+    background-color: #A6FFD6;
+    width: 100%;
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 30px;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    padding-left: 0px;
+}
+
+/*sections go here*/
 .museum {
   width: 1400px;
   height: 600px;
-  margin-top: 100px;
-  border: 2px dotted blue;
+  margin-left: 60px;
+  margin-top: 30px;
+  border: 2px solid #A6FFD6;
   border-radius: 25px;
-  background-color: #D1E4D2;
-  
-  
+  background-color: white;
+  padding-left: 60px;
 }
 
 .memorial {
   display: inline-block;
   width: 300px;
+  height: 300px;
   vertical-align: top;
-  font-family: karla, sans-serif;
+  font-family: Hammersmith One, sans-serif;
   font-size: 12px;
   margin-left: 10px;
   padding: 20px 20px 20px 20px;
   text-align: left;
-  
-  
-  
-  
-  
 }
 
 
@@ -78,14 +74,11 @@ body {
   width: 300px;
   height: 300px;
   vertical-align: top;
-  font-family: karla, sans-serif;
+  font-family: Hammersmith One, sans-serif;
   font-size: 12px;
-  margin-left: 100px;
+  margin-left: 130px;
   padding: 20px 20px 20px 20px;
   text-align: left;
-  
-  
-  
   }
 
 .history {
@@ -93,24 +86,24 @@ body {
   width: 300px;
   height: 300px;
   vertical-align: top;
-  font-family: karla, sans-serif;
+  font-family: Hammersmith One, sans-serif;
   font-size: 12px;
-  margin-left: 100px;
+  margin-left: 130px;
   padding: 20px 20px 20px 20px;
   text-align: left;
-  
-  
 }
 
 .landmark {
   width: 1400px;
   height: 600px;
-  font-family: karla, sans-serif;
+  margin-left: 60px;
+  font-family: Hammersmith One, sans-serif;
   font-size: 12px;
-  border: 2px dotted blue;
+  border: 2px solid #A6FFD6;
   border-radius: 25px;
-  background-color: #D1E4D2;
+  background-color: #white;
   margin-top: 30px;
+  padding-left: 60px;
 }
 
 .statue {
@@ -118,71 +111,71 @@ body {
   width: 300px;
   height: 300px;
   vertical-align: top;
-  font-family: karla, sans-serif;
+  font-family: Hammersmith One, sans-serif;
   font-size: 12px;
   margin-left: 10px;
   padding: 20px 20px 20px 20px;
   text-align: left;
-  
 }
+
 .ellis {
   display: inline-block;
   width: 300px;
   height: 300px;
   vertical-align: top;
-  margin-left: 100px;
-  font-family: karla, sans-serif;
+  margin-left: 130px;
+  font-family: Hammersmith One, sans-serif;
   font-size: 12px;
   padding: 20px 20px 20px 20px;
   text-align: left;
- 
-  
 }
 
 .empire {
   display: inline-block;
-  width: 350px;
+  width: 300px;
   height: 300px;
   vertical-align: top;
-  font-family: karla, sans-serif;
+  font-family: Hammersmith One, sans-serif;
   font-size: 12px;
-  margin-left: 100px;
+  margin-left: 130px;
   padding: 20px 20px 20px 20px;
   text-align: left;
 }
+
 h4 {
-  font-family: karla, sans-serif;
+  font-family: Hammersmith One, sans-serif;
   font-size: 24px;
-  
 }
 
 h5 {
-  font-family: karla, sans-serif;
+  font-family: Hammersmith One, sans-serif;
   font-size: 12px;
-  font-style: italic;
-  
 }
+
 /*footer will be placeholder to submit email*/
 .footer {
   width: 500px;
   height: 100px;
+  font-family: Hammersmith One, sans-serif;
   border: 2px solid blue;
   border-radius: 125px;
-  background-color: #D1E4D2;
+  background-color: #A6FFD6;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
-  margin-left: 450px;
-  
+  margin-left: 600px;
 }
+/*form is only for show and is non-clickable for presentation only*/
 
 form {
   width: 300px;
   height: 30px;
-  margin-left: 95px;
+  font-family: Hammersmith One, sans-serif;
+  margin-left: 100px;
   border: 2px solid black;
-  color: #53B3CB;
+  color: black;
 }
-  
+  a {
+    text-decoration: none;
+  }
 
-/*wake the machine. code for involution*/

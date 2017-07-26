@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #bfaec9;
+    margin: 0px;
+    padding: 18px 0px 18px 0px;
+}
+
+.nav ul {
+    text-align: right;
+    margin: 0px;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 15px 20px 15px 0px;
+    text-align: center; 
+}
+
+.nav a {
+    color: white;
+}
+
+.nav a:link {
+    text-decoration: none;
+}
+
+.content {
+    font-family: 'Merriweather', Georgia, serif;
+    height: 100vh;
+    margin: -22px;
+    background: url('san-francisco-cover.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    padding: 70px 100px 50px 100px;
+    color: white;
+}
