@@ -32,6 +32,10 @@ body {
     text-decoration: none;
 }
 
+.nav a:hover {
+    color: gray;
+}
+
 /*google font used here*/
 
 .content {
