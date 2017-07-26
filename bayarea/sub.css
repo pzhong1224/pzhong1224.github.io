@@ -1,3 +1,5 @@
+/* this external css pg styles both sub html pages */
+
 body {
     margin: 0px;
     padding: 0px;
@@ -30,7 +32,7 @@ body {
     text-decoration: none;
 }
 
-/* affects my experience body*/
+/* affects my subpage body*/
 
 h1 {
     text-align: center;
@@ -48,7 +50,7 @@ h1 {
 
 }
 
-.experience {
+.subpage {
     display: flex;
     flex: auto;
     flex-direction: column;
@@ -130,4 +132,91 @@ h1 {
 
 .golden a:link {
     text-decoration: none;
+}
+
+.top ul {
+        text-align: right;
+}
+
+.top a {
+    color: #108edb;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.top a:link {
+    text-decoration: none;
+}
+
+.top li {
+    display: inline-block;
+    padding: 30px 210px 30px 210px;
+    text-align: center; 
+}
+
+.taco {
+    background: url('cropped-taco.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.burma {
+    background: url('cropped-thai.jpg');
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.wine {
+    background: url('cropped-wine.jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.taco a {
+    color: white;
+    font-size: 70px;
+    font-family: 'Merriweather', Georgia, serif;
+    height: 100%;
+    text-align: center;
+    padding-top: 300px;
+    
+}
+
+.taco a:link {
+    text-decoration: none;
+}
+
+.burma a {
+    color: white;
+    font-size: 70px;
+    font-family: 'Merriweather', Georgia, serif;
+    height: 100%;
+    text-align: center;
+    padding-top: 300px;
+    
+}
+
+.burma a:link {
+    text-decoration: none;
+}
+
+.wine a {
+    color: white;
+    font-size: 70px;
+    font-family: 'Merriweather', Georgia, serif;
+    height: 100%;
+    text-align: center;
+    padding-top: 300px;
+    
+}
+
+.wine a:link {
+    text-decoration: none;
+}
+
+a:hover { 
+    color: gray;
 }

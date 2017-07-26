@@ -1,12 +1,14 @@
 body {
-    margin: 0px;
+    margin: 0px; /* this helps remove the extra space on top */
     padding: 0px;
 }
 
+/* nav details start here */
+
 .nav {
     font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 20px;
-    background-color: #bfaec9;
+    font-size: 20px; 
+    background-color: #bfaec9;  /* hex color here */
     margin: 0px;
     padding: 18px 0px 18px 0px;
 }
@@ -30,10 +32,12 @@ body {
     text-decoration: none;
 }
 
+/*google font used here*/
+
 .content {
     font-family: 'Merriweather', Georgia, serif;
     height: 100vh;
-    margin: -22px;
+    margin: -22px;    /* this decreased the gap btw divs*/
     background: url('san-francisco-cover.jpg') no-repeat;
     background-size: cover;
     background-position: center;
