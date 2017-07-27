@@ -1,28 +1,27 @@
 /*Document information: Joan Santiago*/
 
 body {
-    width: 90%;
-    margin: auto;
-    align-content: center;
-    font-family: 'Hammersmith One', sans-serif;
-    font-size: 20px;
-    background-color: white;
-    padding-top: 10px;
+        width: 90%;
+        margin: auto;
+        align-content: center;
+        font-family: 'Hammersmith One', sans-serif;
+        font-size: 20px;
+        background-color: white;
+        padding-top: 10px;
 }
 .container{
-    /*border: 1px red dotted; stay with-in*/
-    width: 100%;
-   /* padding: 40px 10px 10px 10px;*/
+        /*border: 1px red dotted; stay with-in*/
+        width: 100%;
 }
 
 .nav {
-    color: gray;
-    font-size: 15px;
-    position: static; /* make nav bar stay at top */
-    font-family: 'Hammersmith One', sans-serif;
-    background-color: #A6FFD6;
-    width: 100%;
-    text-align: left;
+        color: gray;
+        font-size: 15px;
+        position: static; /* make nav bar stay at top */
+        font-family: 'Hammersmith One', sans-serif;
+        background-color: #A6FFD6;
+        width: 100%;
+        text-align: left;
 }
 
 ul {
@@ -46,7 +45,7 @@ a:link{
     text-decoration: none;
 }
 
-/*a:hover{change font color on hover
+/*do not want h2 to hover a:hover{change font color on hover
     background-color: #329BE8;
     text-decoration: none;
     color: #ECF5FC;
@@ -56,7 +55,7 @@ h1{
     font-family:'Libre Franklin',sans-serif;
     text-align: center;
     color: #b38f00;
-    padding-top: 30px;
+    margin-top: 40px;
 }
 
 h2{
@@ -64,14 +63,17 @@ h2{
     text-align: center;
     padding: 15px 10px;
 }
+a{
+    color: #28a428;
+}
 
 .zoo {
-    padding: 20px;
+    margin: 30px;
 }
 
 .zoo p{
     margin-left: 30px;
-    margin-right: 25px;
+    margin-right: 40px;
 }
 
 
@@ -87,31 +89,36 @@ h2{
 .pictures img{
     width: 30%;
     height: 100%;
+    border: 2px #A6FFD6 solid;
+    border-radius: 10px;
+
 }
 
 .coney {
-    padding: 20px;
+    margin: 30px;
     display: flex;
 }
 
 .coney img {
     margin: 20px;
-    height: 50%;
+    height: 35%;
     display: inline-block;
-    padding-top: 20px;
+    border: 2px #A6FFD6 solid;
+    border-radius: 10px;
     /*border: 2px brown dotted;*/
 }
 
 #luna{
-    margin: 30px;
+    margin-right: 35px;
+    margin-top: 25px;
 }
 
-.mini {
+/*.mini {
     display: inline-block;
-    padding: 20px;}
-
+    padding: 20px;}*/
+    
 .central {
-    padding: 20px;
+    margin: 40px;
     display: flex;
 }
 
@@ -120,9 +127,12 @@ h2{
     height: 25%;
     display: inline-block;
     margin: 15px;
+    border: 2px #A6FFD6 solid;
+    border-radius: 10px;
 }
 
 #cp{
-    margin: 30px;
-    padding-top: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 30px;
 }
